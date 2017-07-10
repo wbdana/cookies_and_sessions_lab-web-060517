@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add items</title>
+  </head>
+  <body>
+    <%= form_tag '/products' do %>
+      <%= text_field_tag :product %>
+      <%= submit_tag "add to cart" %>
+    <% end %>
+  </body>
+</html>
